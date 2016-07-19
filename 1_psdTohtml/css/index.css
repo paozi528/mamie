@@ -1,0 +1,253 @@
+/**
+*首页样式
+*/
+.index-banner{
+    height:562px;
+    position: relative;
+    overflow: hidden;
+}
+
+.index-banner bg{
+    margin: 0 auto;
+}
+
+.index-banner .text{
+    position: absolute;
+    top:200px;
+    left:50%
+}
+.index-banner .text .title{
+    background: url("../imgs/banner-title.png") no-repeat;
+    width: 776px;
+    height: 117px;
+    margin-left: -388px;
+}
+
+.index-banner .text .content{
+     margin-top: 17px;
+     text-align: center;
+     color: #fff;
+     margin-left: -388px;
+
+}
+.index-banner .text .content .line{
+    display: inline-block;
+    border-top:1px solid #fff;
+    width: 40px;
+    vertical-align: middle;
+}
+.index-banner .text .content span{
+    margin: 0 26px;
+}
+.index-list{
+    height: 796px;
+    background-color: #fff;
+    position: relative;
+    border-top: 4px solid #f34949;
+}
+
+.index-list .menu-tips{
+    position: absolute;
+    top:0;
+    left: 50%;
+    height: 75px;
+    width: 156px;
+    margin-left: -78px;
+    background-color: #f34949;
+    text-align: center;
+    line-height: 68px;
+    color: #fff;
+}
+
+.index-list .menu-tips:after{
+    position: absolute;
+    top:65px;
+    left:0;
+    bottom: 0;
+    content: '';
+    width: 0;
+    height:0;
+    border-left: 78px solid transparent;
+    border-right: 78px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+.index-list .menu-list{
+    margin-top: 150px;
+    color: #555;
+    overflow: hidden;
+}
+
+.index-list .menu-list ul{
+    width: 1160px;
+}
+
+.index-list .menu-item{
+    float: left;
+    width: 520px;
+    margin-top: 80px;
+}
+
+.index-list .menu-list ul li:nth-child(2n+0){
+    margin-left: 80px;
+}
+
+
+
+.index-list .menu-list .title,.index-list .menu-list .line{
+    float: left;
+}
+
+.index-list .menu-list .line{
+    margin-top: 10px;
+}
+
+.index-list .menu-list .title{
+    width: 230px;
+}
+
+
+.index-list .menu-list .title .comment{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.index-list .menu-list .price{
+    float: left;
+    margin-left: 25px;
+}
+
+.index-list .menu-list .line{
+    border-top:1px solid #f9f9f9;
+    width: 195px;
+}
+
+.index-list .menu-list .more{
+    margin-top: 85px;
+    width: 130px;
+    height: 35px;
+    border:1px solid #b7b7b7;
+    line-height: 35px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.index-list .menu-list .more .title{
+    font-size: 14px;
+    width:100px;
+    color:#b7b7b7;
+    text-align: center;
+}
+.index-list .menu-list .more .col{
+    margin: -5px;
+    width: 1px;
+    border-left: 1px solid #b7b7b7;
+}
+
+.index-list .menu-list .more .icon{
+    background: url('../imgs/down.png') no-repeat;
+    display: inline-block;
+    width: 11px;
+    height: 7px;
+    margin-left: 15px;
+}
+.index-panel{
+    height: 564px;
+}
+
+.index-panel .index-panel-header .title{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+.index-panel .index-panel-header .tab{
+    float: right;
+
+}
+
+.index-panel .index-panel-header .tab li{
+    float: left;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #dedede;
+    margin-right: 10px;
+}
+
+.index-panel .index-panel-header .active{
+    background-color: #a0a0a0;
+}
+
+.index-panel .index-panel-body{
+    margin-top: 72px;
+    height: 270px;
+}
+
+.index-panel .index-panel-body ul{
+    width: 1160px;
+}
+
+.index-panel .index-panel-body ul li{
+    float: left;
+    margin-right: 60px;
+    width: 230px;
+}
+
+.index-panel-body .info{
+    margin-top: 30px;
+}
+.index-panel-body .info .title{
+    float: left;
+}
+
+.index-panel-body .info .price{
+    float: right;
+}
+
+.index-panel-body .star-bar{
+    font-size: 0;
+    margin-top: 10px;
+}
+
+.index-panel-body .star{
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    margin-right: 5px;
+    background-image: url("../imgs/star.png");
+    background-repeat: no-repeat;
+
+}
+
+.index-panel-body .no_star{
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    margin-right: 5px;
+    background-image: url("../imgs/star.png");
+}
+.index-gallery{
+    height: 602px;
+    margin-bottom: 126px;
+}
+
+.index-gallery .index-gallery-header{
+    font-size: 16px;
+    font-weight: bold;
+}
+.index-gallery .index-gallery-body{
+    margin-top: 125px;
+}
+
+.index-gallery .index-gallery-body .left{
+    float: left;
+}
+
+.index-gallery .index-gallery-body .middle{
+    float: left;
+    width: 100px;
+}
+
+.index-gallery .index-gallery-body .right{
+    float: right;
+}

@@ -1,0 +1,68 @@
+/**
+*公用样式
+*/
+.public-header{
+    background: #fff;
+    height:110px;
+}
+
+.public-header .header-logo{
+    float: left;
+    margin-top: 40px;
+
+    background: url("../imgs/index-logo.png");
+}
+
+.public-header .header-logo a{
+    width: 182px;
+    height: 54px;
+}
+.public-header .header-menu{
+    float: right;
+    margin-top: 44px;
+    font-size:14px;
+    color: #3b3b3b;
+}
+
+
+.public-header .header-menu li{
+    float: left;
+    margin-left: 48px;
+}
+
+
+.public-header .header-menu li a:hover{
+    text-decoration: underline;
+}
+
+.public-container{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.public-footer{
+    height: 318px;
+    background-color: #3b3b3b;
+    padding-top: 100px;
+}
+
+.public-footer .footer-col{
+    float: left;
+    width: 230px;
+    margin-right: 60px;
+    line-height: 1.8;
+    color: #fff;
+    font-size: 14px;
+}
+.public-footer .footer-col:last-child{
+    margin-right: 0px;
+}
+
+.public-footer .footer-logo{
+    background: url("../imgs/footer-logo.png");
+    width: 182px;
+    height: 55px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
